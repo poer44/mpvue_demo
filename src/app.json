@@ -7,14 +7,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#FFFFCC",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#3F8ECA",
+    "navigationBarTitleText": "Poer's blog",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#999",
     "backgroundColor": "#fafafa",
-    "selectedColor": "#333",
+    "selectedColor": "#3F8ECA",
     "borderStyle": "white",
     "list": [
       {
@@ -24,7 +24,7 @@
         "selectedIconPath": "static/tabs/home-active.png"
       },
       {
-        "text": "订单",
+        "text": "留言",
         "pagePath": "pages/logs/main",
         "iconPath": "static/tabs/orders.png",
         "selectedIconPath": "static/tabs/orders-active.png"
