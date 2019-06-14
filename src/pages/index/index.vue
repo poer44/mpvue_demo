@@ -1,6 +1,8 @@
 <template>
-    <div>
-      <searchbar></searchbar>
+  <div>
+    <searchbar></searchbar>
+    <scroll-view>
+
       <row></row>
       <row></row>
       <row></row>
@@ -8,7 +10,8 @@
       <row></row>
       <row></row>
       <row></row>
-    </div>
+    </scroll-view>
+  </div>
 </template>
 
 <script>
@@ -17,19 +20,23 @@
 
   export default {
     data () {
-      return {
-
-      }
+      return {}
     },
 
     components: {
       searchbar, row
     },
 
-    methods: {
+    methods: {},
 
+    onPullDownRefresh () {
+      // 停止下拉刷新
+      wx.stopPullDownRefresh()
     },
-
+    // 上拉加载
+    onReachBottom () {
+      console.log('bottom')
+    },
     created () {
       // let app = getApp()
     }
