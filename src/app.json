@@ -4,7 +4,9 @@
     "pages/logs/main",
     "pages/counter/main",
     "pages/searchbar/main",
-    "pages/address/main"
+    "pages/address/main",
+    "pages/order/main",
+    "pages/detail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,7 +28,7 @@
       },
       {
         "text": "留言",
-        "pagePath": "pages/address/main",
+        "pagePath": "pages/order/main",
         "iconPath": "static/tabs/orders.png",
         "selectedIconPath": "static/tabs/orders-active.png"
       }

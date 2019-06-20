@@ -12,7 +12,7 @@
     <div class="item itemend">
       <checkbox-group>
         <label class="checkbox">
-          <checkbox class="box" value="true"  color="#B4282D" />设置为默认地址
+          <checkbox class="box" value="true"  color="#3F8ECA" />设置为默认地址
         </label>
       </checkbox-group>
     </div>
