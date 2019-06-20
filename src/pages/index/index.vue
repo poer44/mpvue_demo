@@ -1,8 +1,8 @@
 <template>
   <div>
     <searchbar></searchbar>
-    <scroll-view>
-
+    <div class="maindiv">
+    <video src="https://localhost/test" class="videodiv"/>
       <row></row>
       <row></row>
       <row></row>
@@ -10,7 +10,7 @@
       <row></row>
       <row></row>
       <row></row>
-    </scroll-view>
+    </div>
   </div>
 </template>
 
@@ -44,5 +44,10 @@
 </script>
 
 <style scoped>
-
+  .videodiv {
+    width: 100%;
+  }
+  .maindiv{
+    margin-top:100rpx;
+  }
 </style>
