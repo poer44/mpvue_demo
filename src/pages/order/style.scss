@@ -3,7 +3,7 @@
   .top {
     display: flex;
     justify-content: space-between;
-    padding: 30rpx 20rpx;
+    padding: 20rpx;
     div {
       padding-left: 15rpx;
       display: flex;
@@ -17,8 +17,7 @@
     margin-bottom: 110rpx;
     .item {
       padding: 20rpx 0;
-      border-bottom: 1rpx solid #f4f4f4;
-      height: 166rpx;
+      height: 104rpx;
       position: relative;
       .con {
         display: flex;
@@ -74,6 +73,8 @@
         }
       }
     }
+    padding:20rpx;
+    box-sizing: border-box;
   }
   .fixed {
     position: fixed;
@@ -82,23 +83,21 @@
     height: 100rpx;
     line-height: 100rpx;
     width: 100%;
-    background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
     .left {
       display: flex;
       align-items: center;
       padding-left: 70rpx;
+      color:red;
+      font-weight: bold;
     }
 
     .right {
       display: flex;
-      div:nth-child(1) {
-        color: #3F8ECA;
-        padding-right: 40rpx;
-      }
-      div:nth-child(2) {
+      button:nth-child(1) {
         width: 200rpx;
         height: 100rpx;
         text-align: center;
@@ -118,4 +117,45 @@
       height: 258rpx;
     }
   }
+}
+.nowaddress{
+  padding: 10rpx;
+  display: flex;
+  .img-left{
+    flex-grow: 0;
+    width: 100rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+  }
+  .main-address{
+    flex-grow: 1;
+    .address{
+      font-weight: bold;
+      font-size: 30rpx;
+    }
+    .userinfo{
+      font-size: 30rpx;
+    }
+  }
+  .img-left image{
+    width:100%;
+    height:100%;
+  }
+  .remark{
+    border: 1px black solid;
+  }
+}
+.pclass{
+  color: #3F8ECA;
+  font-size: 40rpx;
+  margin-top: 30rpx;
+}
+.remark{
+  border: 1px #eaeaea solid;
+  width:100%;
+  height:200rpx
+}
+.imgicon{
+  width:40rpx;
+  height:40rpx;
 }
