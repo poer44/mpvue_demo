@@ -1,0 +1,19 @@
+.main {
+  .inner {
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    .imgicon {
+      width: 300rpx;
+      height: 300rpx;
+    }
+    .main-title{
+      font-size: 60rpx;
+      font-weight: bold;
+      color:#3F8ECA;
+    }
+  }
+}
+

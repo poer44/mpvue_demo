@@ -52,7 +52,7 @@
         合计：￥123
       </div>
       <div class="right">
-        <button>下单</button>
+        <button @click="putorder">下单</button>
       </div>
     </div>
   </div>
@@ -65,6 +65,11 @@
       goaddress () {
         wx.navigateTo({
           url: '../address/main'
+        })
+      },
+      putorder () {
+        wx.navigateTo({
+          url: '../success/main'
         })
       }
     },

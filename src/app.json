@@ -6,7 +6,10 @@
     "pages/searchbar/main",
     "pages/address/main",
     "pages/order/main",
-    "pages/detail/main"
+    "pages/detail/main",
+    "pages/myinfo/main",
+    "pages/success/main",
+    "pages/orderlist/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,8 +30,8 @@
         "selectedIconPath": "static/tabs/home-active.png"
       },
       {
-        "text": "留言",
-        "pagePath": "pages/order/main",
+        "text": "我的",
+        "pagePath": "pages/myinfo/main",
         "iconPath": "static/tabs/orders.png",
         "selectedIconPath": "static/tabs/orders-active.png"
       }

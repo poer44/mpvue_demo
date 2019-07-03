@@ -17,8 +17,11 @@
       </checkbox-group>
     </div>
     <div class="bottom">
-      保存
+      新增
     </div>
+  </div>
+  <div class="main">
+    <div>123</div>
   </div>
 </template>
 
