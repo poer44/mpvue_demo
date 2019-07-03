@@ -1,0 +1,17 @@
+.main{
+  padding: 30rpx;
+  .row{
+    margin-top:50rpx;
+    width:100%;
+    height:100rpx;
+    border-bottom: 1px #c8c8c8 solid;
+    .pen{
+      width:50rpx;
+      height:50rpx;
+      float:right;
+    }
+    .address{
+      float:left;
+    }
+  }
+}

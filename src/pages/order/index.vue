@@ -4,7 +4,7 @@
       <div class="img-left">
         <image src="https://localhost/static/icon/location.png"/>
       </div>
-      <div class="main-address">
+      <div class="main-address" @click="goaddresslist">
         <p class="address">漳州大学 达理9A919</p>
         <p class="userinfo">小兔兔 13888888888</p>
       </div>
@@ -14,7 +14,7 @@
       <div>现在下单，明天开始发货~</div>
     </div>
     <div class="cartlist">
-      <p class="pclass"><image src="https://localhost/static/icon/shop.png"  class="imgicon"/>商品：</p>
+      <p class="pclass">商品：</p>
       <div class="item">
         <div class="con">
           <div class="left">
@@ -33,7 +33,7 @@
       <div>
         <p class="pclass"><image src="https://localhost/static/icon/time.png"  class="imgicon"/>订购时间：</p>
         <div>
-          <picker :value="selectedIndex" :range="messagess">
+          <picker :value="selectedIndex" :range="messagess"  @change="bindDateChange">
             <view class="picker">{{ messagess[selectedIndex] }}</view>
           </picker>
         </div>
@@ -67,15 +67,24 @@
           url: '../address/main'
         })
       },
-      putorder () {
+      goaddresslist () {
         wx.navigateTo({
+          url: '../addresslist/main'
+        })
+      },
+      putorder () {
+        wx.redirectTo({
           url: '../success/main'
         })
+      },
+      bindDateChange (e) {
+        this.selectedIndex = e.mp.detail.value
       }
     },
     data: {
       selectedIndex: 0,
-      messagess: ['一星期', '一个月']
+      messagess: ['一星期', '一个月'],
+      datelong: ''
     }
   }
 </script>

@@ -29,7 +29,7 @@
       },
       goaddress () {
         wx.navigateTo({
-          url: '../address/main'
+          url: '../addresslist/main'
         })
       }
       // ,goconnect: function godetail() {

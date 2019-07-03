@@ -20,9 +20,7 @@
       新增
     </div>
   </div>
-  <div class="main">
-    <div>123</div>
-  </div>
+
 </template>
 
 <script>

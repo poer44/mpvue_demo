@@ -9,7 +9,9 @@
     "pages/detail/main",
     "pages/myinfo/main",
     "pages/success/main",
-    "pages/orderlist/main"
+    "pages/orderlist/main",
+    "pages/orderdetail/main",
+    "pages/addresslist/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

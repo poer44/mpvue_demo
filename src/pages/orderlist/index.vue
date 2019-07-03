@@ -1,12 +1,12 @@
 <template>
   <div class="main">
-      <div>
-        <p style="color:red">订单进行中</p>
-        <p>下单时间：2019-07-01 08:01:01</p>
-        <p>出师表套餐</p>
-        <p>送餐时间:2019-07-02~2019-07-10</p>
-      </div>
-    <div>
+    <div @click="godetail">
+      <p style="color:red">订单进行中</p>
+      <p>下单时间：2019-07-01 08:01:01</p>
+      <p>出师表套餐</p>
+      <p>送餐时间:2019-07-02~2019-07-10</p>
+    </div>
+    <div @click="godetail">
       <p>订单已完成</p>
       <p>下单时间：2019-06-01 08:01:01</p>
       <p>出师表套餐</p>
@@ -18,7 +18,13 @@
 <script>
   export default {
     computed: {},
-    methods: {},
+    methods: {
+      godetail () {
+        wx.navigateTo({
+          url: '../orderdetail/main'
+        })
+      }
+    },
     data: {}
   }
 </script>
