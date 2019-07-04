@@ -42,7 +42,7 @@
       }
     },
     data: {
-      pictures: [{url: 'https://localhost/static/images/test.jpg'}, {url: 'https://localhost/static/images/test2.jpg'}]
+      pictures: [{url: 'https://poer44.xyz/static/images/test.jpg'}, {url: 'https://poer44.xyz/static/images/test2.jpg'}]
     }
   }
 </script>

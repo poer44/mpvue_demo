@@ -2,7 +2,7 @@
   <div>
     <div class="touxiang">
       <div class="paddingdiv">
-        <image src="https://localhost/static/icon/default.png" class="timg"></image>
+        <image src="https://poer44.xyz/static/icon/default.png" class="timg"></image>
         <div>
           <p>小兔兔</p>
           <p>13888888888</p>

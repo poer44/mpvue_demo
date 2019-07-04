@@ -2,7 +2,7 @@
   <div class="cart">
     <div class="nowaddress">
       <div class="img-left">
-        <image src="https://localhost/static/icon/location.png"/>
+        <image src="https://poer44.xyz/static/icon/location.png"/>
       </div>
       <div class="main-address" @click="goaddresslist">
         <p class="address">漳州大学 达理9A919</p>
@@ -31,14 +31,14 @@
         </div>
       </div>
       <div>
-        <p class="pclass"><image src="https://localhost/static/icon/time.png"  class="imgicon"/>订购时间：</p>
+        <p class="pclass"><image src="https://poer44.xyz/static/icon/time.png"  class="imgicon"/>订购时间：</p>
         <div>
           <picker :value="selectedIndex" :range="messagess"  @change="bindDateChange">
             <view class="picker">{{ messagess[selectedIndex] }}</view>
           </picker>
         </div>
       </div>
-      <p class="pclass"><image src="https://localhost/static/icon/remark.png"  class="imgicon"/>备注：</p>
+      <p class="pclass"><image src="https://poer44.xyz/static/icon/remark.png"  class="imgicon"/>备注：</p>
       <div>
         <textarea class="remark"/>
       </div>

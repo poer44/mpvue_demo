@@ -8,14 +8,14 @@
         <p>闽南师范大学达理9a919</p>
         <p>小兔兔 13888888888</p>
       </div>
-      <image src="https://localhost/static/icon/edit.png" class="pen"/>
+      <image src="https://poer44.xyz/static/icon/edit.png" class="pen"/>
     </div>
     <div @click="editaddress" class="row">
       <div class="address">
         <p>闽南师范大学达理9a918</p>
         <p>小挠斧 13888888888</p>
       </div>
-      <image src="https://localhost/static/icon/edit.png" class="pen"/>
+      <image src="https://poer44.xyz/static/icon/edit.png" class="pen"/>
     </div>
   </div>
 </template>

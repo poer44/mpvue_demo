@@ -2,7 +2,7 @@
   <div>
     <searchbar></searchbar>
     <div class="maindiv">
-    <video src="https://localhost/test" class="videodiv"/>
+    <video src="https://poer44.xyz/static/video/test.mp4" class="videodiv" autoplay="true" loop="true" controls="false"/>
       <row></row>
       <row></row>
       <row></row>
