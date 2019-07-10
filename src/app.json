@@ -2,7 +2,6 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main",
     "pages/searchbar/main",
     "pages/address/main",
     "pages/order/main",
@@ -16,7 +15,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3F8ECA",
-    "navigationBarTitleText": "Poer's blog",
+    "navigationBarTitleText": "Poer's lab",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
