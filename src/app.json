@@ -10,7 +10,8 @@
     "pages/success/main",
     "pages/orderlist/main",
     "pages/orderdetail/main",
-    "pages/addresslist/main"
+    "pages/addresslist/main",
+    "pages/login/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
